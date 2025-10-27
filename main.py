@@ -55,7 +55,6 @@ def root(request: Request):
         </html>
         """
     else:
-        # Форма, если параметры пустые
         return f"""
         <!DOCTYPE html>
         <html lang="ru">
